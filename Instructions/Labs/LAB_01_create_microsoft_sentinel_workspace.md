@@ -1,18 +1,18 @@
 ---
 lab:
-  title: "Aufgabe\_1: Bereitstellen von Microsoft Sentinel"
+  title: "Aufgabe\_01: Bereitstellen von Microsoft Sentinel"
   module: Guided Project - Create and configure a Microsoft Sentinel workspace
 ---
 
->Für diese Übung benötigen Sie ein Azure-Abonnement. in dem Sie über Administratorzugriff verfügen.
+>**Hinweis**: Zur Durchführung dieses Labs benötigen Sie ein [Azure-Abonnement](https://azure.microsoft.com/en-us/free/?azure-portal=true). In dem Sie über Administratorzugriff verfügen.
 
 ## Allgemeine Richtlinien
 
 - Verwenden Sie beim Erstellen von Objekten die Standardeinstellungen, es sei denn, es gibt Anforderungen, die unterschiedliche Konfigurationen erfordern.
 - Erstellen, löschen oder ändern Sie nur Objekte, um die angegebenen Anforderungen zu erfüllen. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
-- Wenn es mehrere Ansätze zum Erreichen eines Ziels gibt, wählen Sie immer den Ansatz aus, der den geringsten Verwaltungsaufwand erfordert.
+- Wenn es mehrere Möglichkeiten gibt, ein Ziel zu erreichen, wählen Sie immer den Ansatz, der den geringsten Verwaltungsaufwand erfordert.
 
-Wir bewerten derzeit den bestehenden Sicherheitsstatus unserer Unternehmensumgebung. Das Unternehmen benötigt Ihre Hilfe beim Einrichten einer SIEM-Lösung (Security Information & Event Management), um zukünftige Cyberangriffe zu identifizieren.
+Wir evaluieren derzeit den bestehenden Sicherheitsstatus unserer Unternehmensumgebung. Wir benötigen Ihre Hilfe bei der Einrichtung einer Lösung für das Security Information & Event Management (SIEM), um zukünftige und laufende Cyberangriffe zu erkennen.
 
 ## Architekturdiagramm
 
@@ -20,60 +20,60 @@ Wir bewerten derzeit den bestehenden Sicherheitsstatus unserer Unternehmensumgeb
 
 ## Qualifikationsaufgabe
 
-Sie planen, Microsoft Sentinel einzusetzen. Die Lösung muss die folgenden Anforderungen erfüllen:
+Sie müssen einen Microsoft Sentinel-Arbeitsbereich einrichten. Die Lösung muss die folgenden Anforderungen erfüllen:
 
-- Dieses Dataset wird in der Azure-Region „USA, Westen“ gespeichert.
+- Stellen Sie sicher, dass die Sentinel-Daten in der Azure-Region USA, Westen gespeichert werden.
 - Stellen Sie sicher, dass alle Sentinel-Analyseprotokolle 180 Tage lang aufbewahrt werden.
-- Weisen Sie Operator1 Rollen zu, um sicherzustellen, dass Operator1 Vorfälle verwalten und Sentinel-Playbooks ausführen kann. Bei der Lösung muss nach dem Prinzip der geringsten Rechte verfahren werden.
+- Weisen Sie Operator1 Rollen zu, um sicherzustellen, dass Operator1 Vorfälle verwalten und Sentinel-Playbooks ausführen kann. Die Lösung muss dem Grundsatz der geringsten Berechtigung entsprechen.
 
 ## Übungsanweisungen
 
 ### Aufgabe 1: Erstellen eines Log Analytics-Arbeitsbereichs
 
-Erstellen Sie einen Log Analytics-Arbeitsbereich, einschließlich der Regionsoption. Weitere Informationen zu [Rollen in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+Erstellen Sie einen Log Analytics-Arbeitsbereich, einschließlich der Regionsoption. Weitere Informationen zu [Onboarding in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
 
-  1. Suchen Sie im Azure-Portal nach Datenträgern, und wählen Sie sie aus.
+  1. Suchen Sie im Azure-Portal nach `Microsoft Sentinel` und wählen Sie es aus.
   1. Wählen Sie **+ Erstellen** aus.
   1. Klicken Sie auf **Create a new workspace** (Neuen Arbeitsbereich erstellen).
-  1. Wählen Sie die Ressourcengruppe `RG2` aus.
-  1. Geben Sie einen Namen für den neuen Log Analytics-Arbeitsbereich ein.
-  1. Wählen Sie die Region für den Arbeitsbereich aus.
-  1. Wählen Sie zum Erstellen des Arbeitsbereichs **Überprüfen und erstellen** aus.
-  1. Wählen Sie **Erstellen** aus, um den Arbeitsbereich für die Bereitstellung zu erstellen.
+  1. Wählen Sie `RG2` als Ressourcengruppe aus.
+  1. Geben Sie einen gültigen Namen für den Log Analytics-Arbeitsbereich ein.
+  1. Wählen Sie `West US` als Region für den Arbeitsbereich.
+  1. Wählen Sie **Überprüfen + Erstellen**, um den neuen Arbeitsbereich zu bestätigen.
+  1. Wählen Sie **Erstellen**, um den Arbeitsbereich bereitzustellen.
 
-### Aufgabe 2 – Bereitstellen von Microsoft Sentinel in einem Arbeitsbereich
+### Aufgabe 2: Bereitstellen von Microsoft Sentinel in einem Arbeitsbereich
 
-Hinzufügen von Microsoft Sentinel zum Arbeitsbereich
+Bereitstellen von Microsoft Sentinel in einem Arbeitsbereich.
 
-  1. Wenn die `workspace` Bereitstellung abgeschlossen ist, wählen Sie **"Aktualisieren"** aus, um das neue `workspace`anzuzeigen.
-  1. Wählen Sie die Option aus, zu der `workspace` Sentinel hinzugefügt werden soll (in Aufgabe 1 erstellt).
+  1. Wenn die Bereitstellung von `workspace` abgeschlossen ist, wählen Sie **Aktualisieren**, um den neuen `workspace` anzuzeigen.
+  1. Wählen Sie den `workspace`, dem Sie Sentinel hinzufügen möchten (erstellt in Aufgabe 1).
   1. Klicken Sie auf **Hinzufügen**.
 
-### Aufgabe 3 – Zuweisen einer Microsoft Sentinel-Rolle zu einem Benutzer
+### Aufgabe 3: Zuweisen einer Microsoft Sentinel-Rolle zu eine*r Benutzer*in
 
-Weisen Sie einer Verwendung eine Microsoft Sentinel-Rolle zu. Rollen und Berechtigungen für die Arbeit in Microsoft Sentinel
+Weisen Sie einer Verwendung eine Microsoft Sentinel-Rolle zu. Erfahren Sie mehr über [Rollen und Berechtigungen für die Arbeit in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/roles).
 
-  1. Wechseln Sie zur Ressourcengruppe.
+  1. Wechseln Sie zur Ressourcengruppe RG2.
   1. Wählen Sie die Option **Zugriffssteuerung (IAM)** aus.
-  1. Wählen Sie  aus, und fügen Sie  hinzu.
-  1. `Microsoft Sentinel Contributor` in der Suchleiste eingeben und das Suchsymbol auswählen.
+  1. Wählen Sie **Hinzufügen** und `Add role assignment` aus.
+  1. Suchen Sie in der Suchleiste nach der Rolle `Microsoft Sentinel Contributor` und wählen Sie sie aus.
   1. Wählen Sie **Weiter** aus.
   1. Wählen Sie die `User, group, or service principal`-Option aus.
   1. Wählen Sie **+ Mitglieder auswählen** aus.
-  1. Suchen Sie nach den `Operator1` zugewiesenen Anweisungen in Ihrer Übungseinheit `(operator1-XXXXXXXXX@LODSPRODMCA.onmicrosoft.com)`.
+  1. Suchen Sie nach dem `Operator1`, welcher in Ihrer Labanweisung `(operator1-XXXXXXXXX@LODSPRODMCA.onmicrosoft.com)` zugeordnet ist.
   1. Wählen Sie `user icon` aus.
   1. Wählen Sie **Auswählen**.
   1. Wählen Sie „Überprüfen und zuweisen“ aus.
   1. Wählen Sie „Überprüfen und zuweisen“ aus.
 
-### Konfigurieren der Datenaufbewahrung
+### Aufgabe 4: Konfigurieren der Datenaufbewahrung
 
-Konfigurieren der Datenaufbewahrung [Erfahren Sie mehr über die Datenaufbewahrung](https://learn.microsoft.com/azure/azure-monitor/logs/data-retention-archive).
+Konfigurieren der Datenaufbewahrung: [Erfahren Sie mehr über die Datenaufbewahrung](https://learn.microsoft.com/azure/azure-monitor/logs/data-retention-archive).
 
-  1. Wechseln Sie zu dem `Log Analytics workspace` in Schritt 1 Schritt 5 erstellten Vorgang.
+  1. Gehen Sie zu dem in Aufgabe 1 Schritt 5 erstellten `Log Analytics workspace`.
   1. Wählen Sie **Nutzungs- und geschätzte Kosten** aus.
-  1. Wählen Sie **Aufbewahrung** aus.
-  1. Ändern Sie den Datenaufbewahrungszeitraum auf **180 Tage**.
+  1. Wählen Sie **Datenaufbewahrung** aus.
+  1. Ändern Sie den Daten-Aufbewahrungszeitraum auf **180 Tage**.
   1. Klickan Sie auf **OK**.
 
->**Hinweis**: Für weitere Übungsbeispiele führen Sie das [Modul "Erstellen und Verwalten von Microsoft Sentinel-Arbeitsbereichen" aus](https://learn.microsoft.com/training/modules/create-manage-azure-sentinel-workspaces/) .
+>**Hinweis**: Für zusätzliche Übungen absolvieren Sie das Modul [Erstellen und Verwalten von Microsoft Sentinel-Arbeitsbereichen](https://learn.microsoft.com/training/modules/create-manage-azure-sentinel-workspaces/).

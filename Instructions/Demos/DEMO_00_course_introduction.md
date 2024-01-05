@@ -1,38 +1,38 @@
 ---
 demo:
-  title: 'Demonstration 00: Material und Laborumgebung für Schüler /Studenten (anpassen)'
+  title: 'Demonstration 00: Material und Laborumgebung für Lernende (anpassen)'
   module: Guided Project - Configure SIEM Security Operations with Microsoft Sentinel
 ---
-## Demonstration – Material und Laborumgebung (optional)
+## Demonstration – Material und Laborumgebung für Lernende (optional)
 
-Verwenden Sie diese Demonstration, um Schülern zu zeigen, wie Sie auf die Laborumgebung und die Materialien von Kursteilnehmern zugreifen können. Sie können dies am Anfang des Kurses oder vor der nächsten Demonstration tun. 
+Verwenden Sie diese Demonstration, um Lernenden zu zeigen, wie sie auf die Laborumgebung und die Materialien für Lernende zugreifen können. Sie können dies am Anfang des Kurses oder vor der nächsten Demonstration tun. 
 
-## Schüler/Studenten in der Lab-Umgebung anzeigen (Anpassen des Lab-Hosters)
+## Lernenden die Laborumgebung zeigen (Anpassen für Ihren Lab-Hoster)
 
-- Diskutieren Sie, wie Kursteilnehmer auf die Lab-Umgebung zugreifen. 
+- Besprechen Sie, wie Lernende auf die Laborumgebung zugreifen. 
 
-- Erläutern, wie Sie sich beim Host des virtuellen Computers anmelden.
+- Erläutern Sie, wie man sich beim Host der virtuellen Maschine anmeldet.
 
-- Erläutern, wie sie auf die [Azure-Portal](https://portal.azure.com) zugreifen. Es wird bevorzugt, die Azure-Portal in der Laborumgebung anstelle eines separaten Fensters zu öffnen. Bitten Sie um eine Praktische Präsentation, wie viele Schüler das Portal verwendet haben. 
+- Erläutern Sie, wie man auf das [Azure-Portal](https://portal.azure.com) zugreifen kann. Es ist vorzuziehen, das Azure-Portal in der Laborumgebung statt in einem separaten Fenster zu öffnen. Bitten Sie um ein Handzeichen, wie viele Lernende das Portal bereits verwendet haben. 
 
-- Erläutern Sie, welche Ressourcen , falls vorhanden, bereits für die Labore konfiguriert wurden.
+- Erläutern Sie, welche Ressourcen, falls vorhanden, bereits für die Labs konfiguriert wurden.
 
-- Überprüfen Sie, wie Sie die Übungsanweisungen verwenden. 
+- Besprechen Sie, wie man die Labanweisungen verwenden. 
 
-- Fügen Sie ihrer Lab-Hostingumgebung weitere spezifische Themen hinzu. 
+- Fügen Sie Ihrer Lab-Hostingumgebung weitere spezifische Themen hinzu. 
 
-## Zeigen Sie Kursmaterialien für Kursteilnehmer an.
+## Zeigen Sie den Lernenden ihre Kursmaterialien.
 
-- Greifen Sie auf die [Microsoft Learn-Seite zu](https://learn.microsoft.com).
+- Rufen Sie die [Microsoft Learn-Seite](https://learn.microsoft.com) auf.
 
-- Besprechen Sie, dass Microsoft Learn eine großartige Quelle für alle Azure-Dokumentationen, Schulungen, Zertifizierungen und Bewertungen ist. 
+- Erörtern Sie, dass Microsoft Learn eine hervorragende Quelle für alle Azure-Dokumentationen, Schulungen, Zertifizierungen und Bewertungen ist. 
 
-- Wählen Sie Lernpfade** aus, und suchen Sie **dann mithilfe des Microsoft Sentinel-Lernpfads** nach den **SIEM-Sicherheitsvorgängen konfigurieren.
+- Wählen Sie **Lernpfade** und suchen Sie dann nach dem Lernpfad **Konfigurieren von SIEM-Sicherheitsvorgängen mithilfe von Microsoft Sentinel**.
 
-- Besprechen Sie, dass die Inhalte im Lernpfad spezifisch für diesen Kurs sind. Es gibt mehr Speicherinhalte, die sie überprüfen können.
+- Erörtern Sie, dass die Inhalte des Lernpfads speziell für diesen Kurs sind. Es gibt mehr Speicherinhalte, die sie begutachten können.
 
-- Erläutern, dass der Inhalt Referenzmaterial ist und es keine 1:1-Zuordnung mit den Kursraumpräsentationen gibt.
+- Erläutern Sie, dass es sich bei den Inhalten um Referenzmaterial handelt und dass es keine 1:1-Übereinstimmung mit den Kurspräsentationen gibt.
 
-- Besprechen Sie, dass jedes dieser Module möglicherweise zusätzliche praktische Aktivitäten hat. Sie werden diese Aktivitäten identifizieren, während der Kurs fortschreitet.
+- Besprechen Sie, dass jedes dieser Module möglicherweise zusätzliche praktische Aktivitäten enthalten kann. Sie werden diese Aktivitäten im Laufe des Kurses kennenlernen.
 
-- Bitten Sie die Kursteilnehmer, den Lernpfad zu suchen und zu lesezeichen.
+- Bitten Sie die Lernenden, den Lernpfad zu ermitteln und ein Lesezeichen zu setzen.

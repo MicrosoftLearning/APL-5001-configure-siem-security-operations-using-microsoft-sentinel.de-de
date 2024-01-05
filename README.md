@@ -6,9 +6,9 @@
 
 ## Was tun wir?
 
-- Zur Unterstützung dieses Kurses müssen wir den Kursinhalt regelmäßig aktualisieren, um ihn auf den neuesten Stand der im Kurs verwendeten Azure- und Microsoft 365-Dienste zu bringen. Wir veröffentlichen die Labanweisungen und Labdateien auf GitHub, um offene Beiträge zwischen den Kursautoren und MCTs zu ermöglichen und die Inhalte an aktuelle Änderungen in der Azure und Microsoft 365 anzupassen.
+- Um diesen Kurs zu unterstützen, werden wir den Kursinhalt regelmäßig aktualisieren, um ihn mit den im Kurs verwendeten Microsoft-Diensten auf dem neuesten Stand zu halten. Wir veröffentlichen die Labanweisungen und Labdateien auf GitHub, um offene Beiträge zwischen den Kursautor*innen und MCTs (Microsoft Certified Trainer) zu ermöglichen und die Inhalte an aktuelle Produktänderungen anzupassen.
 
-- Wir hoffen, dass sich daraus ein beispielloses Gefühl der Zusammenarbeit in den Labs ergibt. Wenn sich Azure oder Microsoft 365 ändert und Ihnen dies bei einem Live-Vortrag auffällt, können Sie direkt im Lab-Quellcode eine Verbesserung vornehmen. Helfen Sie Ihren MCT-Kollegen.
+- Wir hoffen, dass sich daraus ein beispielloses Gefühl der Zusammenarbeit in den Labs ergibt. Wenn sich ein Microsoft-Dienst wie Azure oder Microsoft 365 ändert und Ihnen dies bei einem Live-Vortrag auffällt, können Sie direkt in der Labquelle eine Verbesserung vornehmen. Helfen Sie Ihren MCT-Kollegen.
 
 ## Wie sollte ich dieses Repository verwenden?
 
@@ -16,14 +16,14 @@
 
 - Diese Dateien auf GitHub sind für die Verwendung in den Kurslabs in der gehosteten Laborumgebung vorgesehen.
 
-- Kursleiter sollten GitHub vor jedem Kurs auf Änderungen überprüfen, die möglicherweise zur Unterstützung der neuesten Azure- und Microsoft 365-Dienste vorgenommen wurden, und die neuesten Dateien für den Kurs abrufen.
+- Kursleiter*innen sollten GitHub vor jedem Kurs auf Änderungen überprüfen, die möglicherweise zur Unterstützung der neuesten Microsoft Cloud-Dienste vorgenommen wurden, und die neuesten Dateien für den Kurs abrufen.
 
 ## Was ist mit Änderungen am Kursteilnehmerhandbuch?
 
-- Wenn ein Studentenhandbuch bereitgestellt wird, überprüfen wir das Studentenhandbuch vierteljährlich und aktualisieren nach Bedarf über die normalen MOC-Veröffentlichungskanäle (Microsoft Official Curriculum).
+- Wenn ein Handbuch für Lernende zur Verfügung gestellt wird, überprüfen wir das Handbuch für Lernende vierteljährlich und aktualisieren es bei Bedarf über die normalen MOC-Releasekanäle (Microsoft Official Curriculum).
 
 ## Wie kann ich beitragen?
 
-- Jeder MCT kann einen Pull Request bezüglich des Codes oder des Inhalts im GitHub-Repository senden. Microsoft und der*die Kursautor*in werden bei Bedarf Änderungen an Inhalt und am Labcode überprüfen und einarbeiten.
+- Jeder MCT (Microsoft Certified Trainer) kann einen Pull Request bezüglich des Codes oder des Inhalts im GitHub-Repository senden. Microsoft und die Kursautor*innen werden bei Bedarf Änderungen an Inhalt und am Labcode überprüfen und einarbeiten.
 
-- Sie können Fehler, Änderungen, Verbesserungen und Vorschläge einreichen. Sie haben vor uns eine neue Azure-Funktion gefunden? Reichen Sie eine neue Demo ein!
+- Sie können Fehler, Änderungen, Verbesserungen und Vorschläge einreichen. Sie haben vor uns eine neue Azure- oder Microsoft 365-Funktion gefunden? Reichen Sie eine neue Demo ein!
