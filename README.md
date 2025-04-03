@@ -1,14 +1,6 @@
-#README
+# Konfigurieren von SIEM-Sicherheitsvorgängen mit Microsoft Sentinel
 
-We've turned off the ability to report issues directly on this repo and do not monitor PRs.
-
-Provide feedback here: https://aka.ms/provide-feedback
-
-Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
-
-# APL-5001: Konfigurieren von SIEM-Sicherheitsvorgängen mit Microsoft Sentinel
-
-- **[Link zu Labs (HTML-Format)]( https://microsoftlearning.github.io/APL-5001-configure-siem-security-operations-using-microsoft-sentinel/)**
+- **[Link zu Labs (HTML-Format)]( https://microsoftlearning.github.io/configure-siem-security-operations-using-microsoft-sentinel/)**
 
 - **Sind Sie ein MCT?** – Lesen Sie unser [GitHub-Benutzerhandbuch für MCTs](https://microsoftlearning.github.io/MCT-User-Guide/).
 
@@ -16,7 +8,7 @@ Or, if you are a trainer with a microsoft.com email address, please create a tic
 
 - Um diesen Kurs zu unterstützen, werden wir den Kursinhalt regelmäßig aktualisieren, um ihn mit den im Kurs verwendeten Microsoft-Diensten auf dem neuesten Stand zu halten. Wir veröffentlichen die Labanweisungen und Labdateien auf GitHub, um offene Beiträge zwischen den Kursautor*innen und MCTs (Microsoft Certified Trainer) zu ermöglichen und die Inhalte an aktuelle Produktänderungen anzupassen.
 
-- Wir hoffen, dass sich daraus ein beispielloses Gefühl der Zusammenarbeit in den Labs ergibt. Wenn sich ein Microsoft-Dienst wie Azure oder Microsoft 365 ändert und Ihnen dies bei einem Live-Vortrag auffällt, können Sie direkt in der Labquelle eine Verbesserung vornehmen. Helfen Sie Ihren MCT-Kollegen.
+- Wir hoffen, dass sich daraus ein beispielloses Gefühl der Zusammenarbeit in den Labs ergibt. Wenn sich ein Microsoft-Dienst wie Azure oder Microsoft 365 ändert und Ihnen dies bei einem Live-Vortrag auffällt, können Sie direkt in der Labquelle eine Verbesserung vornehmen. Helfen Sie Ihren MCTs.
 
 ## Wie sollte ich dieses Repository verwenden?
 
