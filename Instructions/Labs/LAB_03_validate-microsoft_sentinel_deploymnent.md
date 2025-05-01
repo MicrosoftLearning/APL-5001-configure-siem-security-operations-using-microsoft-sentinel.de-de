@@ -4,12 +4,12 @@ lab:
   module: 'Guided Project - Configure Microsoft Sentinel Data Collection rules, NRT Analytic rule and Automation'
 ---
 
->**Hinweis**: Dieses Lab baut auf Lab 01 und Lab 02 auf. Für diese Übung benötigen Sie ein [Azure-Abonnement](https://azure.microsoft.com/free/?azure-portal=true). In dem Sie über Administratorzugriff verfügen.
+>**Hinweis**: Dieses Lab baut auf Lab 01 und Lab 02 auf. Für dieses Lab benötigen Sie ein [Azure-Abonnement](https://azure.microsoft.com/free/?azure-portal=true). In dem Sie über Administratorzugriff verfügen.
 
-## Allgemeine Richtlinien
+## Allgemeine Richtlinien zu 
 
 - Verwenden Sie beim Erstellen von Objekten die Standardeinstellungen, es sei denn, es gibt Anforderungen, die unterschiedliche Konfigurationen erfordern.
-- Erstellen, löschen oder ändern Sie nur Objekte, um die angegebenen Anforderungen zu erfüllen. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
+- Erstellen, löschen oder bearbeiten Sie Objekte nur dann, wenn dies zum Erfüllen der Anforderungen dient. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
 - Wenn es mehrere Möglichkeiten gibt, ein Ziel zu erreichen, wählen Sie immer den Ansatz, der den geringsten Verwaltungsaufwand erfordert.
 
 Wir müssen Microsoft Sentinel so konfigurieren, dass Sicherheitsereignisse von virtuellen Computern empfangen werden, auf denen Windows ausgeführt wird.
