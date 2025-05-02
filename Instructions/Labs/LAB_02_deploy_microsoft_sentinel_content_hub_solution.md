@@ -4,12 +4,12 @@ lab:
   module: Guided Project - Deploy Microsoft Sentinel Content Hub solutions and data connectors
 ---
 
->**Hinweis**: Dieses Lab baut auf Lab 01 auf. Für diese Übung benötigen Sie ein [Azure-Abonnement](https://azure.microsoft.com/free/?azure-portal=true). In dem Sie über Administratorzugriff verfügen.
+>**Hinweis**: Dieses Lab baut auf Lab 01 auf. Für dieses Lab benötigen Sie ein [Azure-Abonnement](https://azure.microsoft.com/free/?azure-portal=true). In dem Sie über Administratorzugriff verfügen.
 
-## Allgemeine Richtlinien
+## Allgemeine Richtlinien zu 
 
 - Verwenden Sie beim Erstellen von Objekten die Standardeinstellungen, es sei denn, es gibt Anforderungen, die unterschiedliche Konfigurationen erfordern.
-- Erstellen, löschen oder ändern Sie nur Objekte, um die angegebenen Anforderungen zu erfüllen. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
+- Erstellen, löschen oder bearbeiten Sie Objekte nur dann, wenn dies zum Erfüllen der Anforderungen dient. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
 - Wenn es mehrere Möglichkeiten gibt, ein Ziel zu erreichen, wählen Sie immer den Ansatz, der den geringsten Verwaltungsaufwand erfordert.
 
 Wir müssen Microsoft Sentinel so konfigurieren, dass Daten mithilfe von Microsoft Sentinel-Lösungen erfasst werden.
@@ -49,7 +49,7 @@ Stellen Sie eine Content Hub-Lösung bereit, und konfigurieren Sie Datenconnecto
 1. Wählen Sie **Weiter** auf der Analyse-Registerkarte (die Lösungen installieren Analyseregeln).
 1. Wählen Sie **Weiter** auf der Registerkarte für Hunting-Abfragen (die Lösung installiert Hunting-Abfragen).
 1. Klicken Sie auf **Überprüfen + erstellen**.
-1. Klicken Sie auf **Erstellen**.
+1. Klicken Sie auf **Erstellen**
 
 1. Wiederholen Sie diese Schritte für die Lösungen `Azure Activity` und `Microsoft Defender for Cloud`.
 
@@ -91,8 +91,8 @@ Erstellen Sie eine Analyseregel basierend auf der Vorlage der verdächtigen Anza
 
      |Einstellung |Wert|
      |---|---|
-     |Abfrage ausführen alle|Stündlich|
-     |Datensuche für letzte:|Stündlich|
+     |Abfrage ausführen alle |Stündlich|
+     |Durchsuchen der Daten der letzten|Stündlich|
 
   1. Wählen Sie **Weiter: Vorfallseinstellungen >**.
   1. Belassen Sie die Standardeinstellungen und wählen Sie **Weiter: Automatisierte Antwort >**.

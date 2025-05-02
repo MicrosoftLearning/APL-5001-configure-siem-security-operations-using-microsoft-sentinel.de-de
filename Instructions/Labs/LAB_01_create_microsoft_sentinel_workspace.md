@@ -6,10 +6,10 @@ lab:
 
 >**Hinweis**: Zur Durchführung dieses Labs benötigen Sie ein [Azure-Abonnement](https://azure.microsoft.com/en-us/free/?azure-portal=true). In dem Sie über Administratorzugriff verfügen.
 
-## Allgemeine Richtlinien
+## Allgemeine Richtlinien zu 
 
 - Verwenden Sie beim Erstellen von Objekten die Standardeinstellungen, es sei denn, es gibt Anforderungen, die unterschiedliche Konfigurationen erfordern.
-- Erstellen, löschen oder ändern Sie nur Objekte, um die angegebenen Anforderungen zu erfüllen. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
+- Erstellen, löschen oder bearbeiten Sie Objekte nur dann, wenn dies zum Erfüllen der Anforderungen dient. Unnötige Änderungen an der Umgebung können sich negativ auf Ihre Endbewertung auswirken.
 - Wenn es mehrere Möglichkeiten gibt, ein Ziel zu erreichen, wählen Sie immer den Ansatz, der den geringsten Verwaltungsaufwand erfordert.
 
 Wir evaluieren derzeit den bestehenden Sicherheitsstatus unserer Unternehmensumgebung. Wir benötigen Ihre Hilfe bei der Einrichtung einer Lösung für das Security Information & Event Management (SIEM), um zukünftige und laufende Cyberangriffe zu erkennen.
@@ -47,14 +47,14 @@ Bereitstellen von Microsoft Sentinel in einem Arbeitsbereich.
 
   1. Wenn die Bereitstellung von `workspace` abgeschlossen ist, wählen Sie **Aktualisieren**, um den neuen `workspace` anzuzeigen.
   1. Wählen Sie den `workspace`, dem Sie Sentinel hinzufügen möchten (erstellt in Aufgabe 1).
-  1. Klicken Sie auf **Hinzufügen**.
+  1. Wählen Sie **Hinzufügen**.
 
 ### Aufgabe 3: Zuweisen einer Microsoft Sentinel-Rolle zu eine*r Benutzer*in
 
 Weisen Sie einer Verwendung eine Microsoft Sentinel-Rolle zu. Erfahren Sie mehr über [Rollen und Berechtigungen für die Arbeit in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/roles).
 
   1. Wechseln Sie zur Ressourcengruppe RG2.
-  1. Wählen Sie die Option **Zugriffssteuerung (IAM)** aus.
+  1. Wählen Sie **Zugriffssteuerung (IAM)** aus.
   1. Wählen Sie **Hinzufügen** und `Add role assignment` aus.
   1. Suchen Sie in der Suchleiste nach der Rolle `Microsoft Sentinel Contributor` und wählen Sie sie aus.
   1. Wählen Sie **Weiter** aus.
@@ -74,6 +74,6 @@ Konfigurieren der Datenaufbewahrung: [Erfahren Sie mehr über die Datenaufbewahr
   1. Wählen Sie **Nutzungs- und geschätzte Kosten** aus.
   1. Wählen Sie **Datenaufbewahrung** aus.
   1. Ändern Sie den Daten-Aufbewahrungszeitraum auf **180 Tage**.
-  1. Klickan Sie auf **OK**.
+  1. Wählen Sie **OK** aus.
 
 >**Hinweis**: Für zusätzliche Übungen absolvieren Sie das Modul [Erstellen und Verwalten von Microsoft Sentinel-Arbeitsbereichen](https://learn.microsoft.com/training/modules/create-manage-azure-sentinel-workspaces/).
