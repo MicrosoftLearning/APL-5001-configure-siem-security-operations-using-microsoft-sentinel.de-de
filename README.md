@@ -1,5 +1,3 @@
-**⚠️ This GitHub repo will retire on 30th December 2025.** 
-
 # Konfigurieren von SIEM-Sicherheitsvorgängen mit Microsoft Sentinel
 
 - **[Link zu Labs (HTML-Format)]( https://microsoftlearning.github.io/configure-siem-security-operations-using-microsoft-sentinel/)**
